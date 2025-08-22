@@ -1,0 +1,194 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{color:#FFBF86 ;
+  background-color: #FFCDA2;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Logo_Par{
+       height: 124px;
+}
+
+.Logo{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.navbar {
+  margin-bottom: 0 !important;
+}
+
+.navbar-collapse{
+  margin-top: -81px;
+  margin-left: 400px !important; 
+}
+.nav-link{
+    color: white !important;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+.navbar {
+padding:20px ;
+  position: relative; /* So z-index works */
+  z-index: 10; /* Higher than hero-bg */
+}
+.navbar-toggler{
+  margin-top: -100px;
+  
+}
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+
+
+.nav-item {
+  position: relative;
+  z-index: 2; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+/* SECTION BACKGROUND — ORANGE WAVE */
+
+
+/* LEFT */
+.hero-left{
+   position: relative;
+   margin-top: -20px;
+   }
+
+.reviews-card{
+  position: absolute;
+  /* top: 6px;
+  left: 4px; */
+  background: white;
+  border-radius: 14px;
+  padding: 12px 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+  line-height: 1.1;
+}
+.reviews-card .stars{ font-weight:700; font-size:14px; color:#FFB300; letter-spacing:1px; }
+.reviews-card .divider{ color:#E0E0E0; margin:0 8px; font-weight:400; }
+.reviews-card .score{ color:var(--text); }
+.reviews-card .sub{ font-size:12px; color:#6B6B6B; margin-top:4px; }
+
+.eyebrow{ color:#7F7F7F; font-size:16px; font-weight:600; margin:78px 0 12px; }
+
+.title{
+    font-size: 50px;
+    color: white;
+  font-weight: 800;
+  line-height: 1.05;
+  margin: 0 0 22px;
+}
+
+.cta-row{ display:flex; align-items:center; gap:16px; }
+.btn-explore{
+  border:none; background:white; color:#f38a2f;
+  font-weight:700; padding:12px 22px; border-radius:12px;
+  box-shadow:0 12px 28px rgba(233, 110, 24, .25); cursor:pointer;
+}
+.btn-play{ width:44px; height:44px; border-radius:50%; border:2px solid rgba(0,0,0,.08); background:white; display:inline-flex; align-items:center; justify-content:center; }
+.btn-play .triangle{ width:0; height:0; border-left:12px solid #f38a2f; border-top:8px solid transparent; border-bottom:8px solid transparent; margin-left:2px; }
+.how{ color:#7A7A7A; font-size:14px; }
+
+
+
+
+  .hero-section {
+      position: relative;
+      background-image: url('src/assets/Rectangle2.png');
+      background-repeat: no-repeat; 
+      background-position: center;  
+      background-position: top right !important;
+      background-size: 48% 99%;
+
+      z-index: 0;      
+      padding: 21px 48px;
+      background-color: #FFCDA2; 
+      height: 650px
+    }
+
+/* make sure all the content sits ABOVE the wave */
+.hero-wrap,
+.hero-left,
+.hero-right {
+  position: relative;
+  z-index: 5;
+}
+
+/* ------ IMAGE POSITIONING ------ */
+
+/* burger (main image) */
+.Hero_img {
+  max-width: 480px;
+  width: 100%;
+  position: relative;
+  z-index: 6;
+}
+
+/* stickers (inside Hero_res) */
+.Hero_res {
+  position: relative;
+}
+.Hero_burger{
+  width: 500px;
+}
+.Hero_img{
+  width: 89%;
+  top: -45px;
+}
+
+.Hero_img1 {           /* 75% OFF */
+  position: absolute;
+  left: 27%;
+
+  
+  width: 80px;
+  z-index: 7;
+}
+
+.Hero_img2 {           /* star */
+  position: absolute;
+     left: 24%;
+    width: 29%;
+
+ top: -15px;
+}
+
+/* VECTOR UNDER THE BURGER (between burger & HOT ITEMS) */
+.vector-plate {
+  position: absolute;
+  left: -48px;
+  width: 41%;
+  
+  z-index: 4;        /* below burger but above background */
+  pointer-events: none;
+}
+
+@media(max-width:1024px){
+    .Hero_img2{width: 34%;}
+}
+@media (max-width: 992px){
+  .vector-plate{top:-99999px;}
+  .Hero_img1{top:-99999px;}
+  .Hero_img2{top:-99999px;}
+  .Hero_img{top:-99999px;}
+  .hero-section{background-size: 0% 0%;}
+  .hero-wrap{
+    text-align:center;
+    justify-content: center;
+  }
+}

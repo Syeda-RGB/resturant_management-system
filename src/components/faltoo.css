@@ -1,0 +1,216 @@
+
+
+
+
+.navbar {
+padding:20px ;
+  position: relative; /* So z-index works */
+  z-index: 10; /* Higher than hero-bg */
+}
+
+
+
+.nav-item {
+  position: relative;
+  z-index: 2; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+:root{
+ 
+
+  --text:#2B2B2B;
+  --muted:#A7A7A7;
+
+}
+
+*{ box-sizing: border-box; }
+
+.hero-section{
+  position: relative;
+  background: var(--peach);
+
+
+  overflow: hidden;
+  font-family: 'Poppins', Arial, sans-serif;
+  color: var(--text);
+}
+
+/* side-by-side layout */
+.hero-wrap{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 20px 0;
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 12px;
+  align-items: center;
+}
+
+/* LEFT */
+.hero-left{ position: relative; padding-top: 30px; }
+
+.reviews-card{
+  position: absolute;
+  top: 6px; left: 4px;
+  background: white;
+  border-radius: 14px;
+  padding: 12px 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+  line-height: 1.1;
+}
+.reviews-card .stars{ font-weight:700; font-size:14px; color:#FFB300; letter-spacing:1px; }
+.reviews-card .divider{ color:#E0E0E0; margin:0 8px; font-weight:400; }
+.reviews-card .score{ color:var(--text); }
+.reviews-card .sub{ font-size:12px; color:#6B6B6B; margin-top:4px; }
+
+.eyebrow{ color:#7F7F7F; font-size:16px; font-weight:600; margin:78px 0 12px; }
+
+.title{
+    font-size: 66px;
+    color: white;
+  font-weight: 800;
+  line-height: 1.05;
+  margin: 0 0 22px;
+}
+
+.cta-row{ display:flex; align-items:center; gap:16px; }
+.btn-explore{
+  border:none; background:white; color:#FF9131;
+  font-weight:700; padding:12px 22px; border-radius:12px;
+  box-shadow:0 12px 28px rgba(233, 110, 24, .25); cursor:pointer;
+}
+.btn-play{ width:44px; height:44px; border-radius:50%; border:2px solid rgba(0,0,0,.08); background:white; display:inline-flex; align-items:center; justify-content:center; }
+.btn-play .triangle{ width:0; height:0; border-left:12px solid #FF9131; border-top:8px solid transparent; border-bottom:8px solid transparent; margin-left:2px; }
+.how{ color:#7A7A7A; font-size:14px; }
+
+/* RIGHT — EXACT REQUEST: ORANGE BG ON THIS DIV */
+.Hero_img_div{
+  position: relative;
+  height: 660px;/* your value */
+  background-image: url("src/assets/Rectangle2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right top;
+  /* keeps it on the right and lets images layer above */
+  overflow: visible;
+}
+
+/* burger + stickers inside the bg div */
+.Hero_img{
+  position: absolute;
+      right: 110px;
+    bottom: 90px;
+  right: 18px;     /* tweak to match your PNGs */
+  bottom: 0px;
+  right: 111px;    /* tweak */
+  /* width: 88%; */
+  max-width: 560px;
+  z-index: 3;      /* above Vector_2 */
+  pointer-events: none;
+}
+
+.Hero_img1{        /* 75% OFF */
+  position: absolute;
+  left: 689px;
+    top: 117px;
+    width: 62px;
+  transform: rotate(-8deg);
+  z-index: 4;
+  pointer-events: none;
+}
+
+.Hero_img2{        /* doodle/star */
+  position: absolute;
+    left: 677px;
+    top: 101px;
+
+  width: 80px;
+  pointer-events: none;
+  box-shadow: #6B6B6B;
+}
+
+/* EXACT REQUEST: Vector_2 between burger art and hot-items */
+.vector-plate{
+ display: block;
+    top: -90px;
+    right: 54px;
+
+    margin-top: -900px;
+    margin-left: 480px;
+  width: 12%;
+  max-width: 920px;
+  margin: -120px auto 8px;   /* pulls it up under the boards */
+  z-index: 2;                /* below burger, above bottom text */
+  position: relative;
+  pointer-events: none;
+}
+
+
+/* bottom bits */
+.hot-items{
+  display:flex; align-items:center; justify-content:center; gap:14px;
+  margin: 6px 0 6px;
+  font-weight:700; letter-spacing:1px; color:#B9B9B9;
+}
+.hot-items .label{ font-size:14px; }
+.subnote{ text-align:center; font-size:12px; color:#B9B9B9; margin:0 0 16px; padding-bottom:8px; }
+
+/* responsive */
+    @media screen and (min-width: 1201px) {
+      .Logo_Par{
+        width: 64px;
+      }
+      .Hero_img2{
+        /* margin-left: -50px; */
+         top: -9999px; /* moves it far above the viewport */
+  left: -9999px;
+      }
+      .Hero_img1{
+         /* margin-left: -50px; */
+          top: -9999px; /* moves it far above the viewport */
+  left: -9999px;
+      }
+      .vector-plate{
+         top: -9999px; /* moves it far above the viewport */
+  left: -9999px;
+      }
+   
+    }
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .Hero_img{
+        right: 63px !important;
+        bottom: -66px !important;
+        width: 49% !important;
+  }
+  .vector-plate{
+   width: 13% !important;
+  }
+ .title{ font-size: 38px; }
+  .hero-wrap{ grid-template-columns: 1fr; }
+  .hero-wrap{ grid-template-columns: 1fr; }
+  .Hero_img_div{ order:-1; height: 540px; }
+  .Hero_img{ right: 0; bottom: 70px; width: 92%; }
+     .Hero_img1{
+      position: absolute;
+ 
+        left: 547px !important;
+      }
+       .Hero_img2{
+        left: 535px !important;
+      }
+      .Hero_res{
+
+      }
+  /* .vector-plate{ margin: -90px auto 8px; width: 90%; } */
+}
+@media (max-width: 560px){
+  .title{ font-size: 38px; }
+  .Hero_img_div{ height: 480px; }
+  .Hero_img1{ width: 64px; top: -18px; left: 10px; }
+  .Hero_img2{ width: 56px; right: 18px; top: -12px; }
+  .vector-plate{ margin: -70px auto 6px; }
+}

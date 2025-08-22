@@ -1,0 +1,83 @@
+.footer-section {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FF6947;
+  color: white;
+  padding: 40px 0;
+}
+
+.burger-logo {
+  height: 105px;
+}
+.Logo{
+    width: 100%;
+    height: 100%;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-text {
+    margin-top: -62px;
+  font-size: 11px;
+  
+
+}
+
+.footer-contact {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.footer-links h6 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-links ul {
+  font-size: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 5px 0;
+}
+
+.footer-subscribe h6 {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.subscribe-form input {
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+
+.arrow-btn {
+  background-color: white;
+  color: red;
+  border: none;
+  padding: 5px 12px;
+  font-size: 18px;
+  border-radius: 0 5px 5px 0;
+}
+
+.footer-bottom {
+  margin-top: 15px;
+}
+
+.footer-line {
+    margin-right: 70px;
+  width: 40px;
+  border: 1px solid white;
+  display: inline-block; /* Makes it hug its content width */
+}
+
+
+
+.footer-bottom p {
+  font-size: 12px;
+  margin: 5px 0 0;
+}

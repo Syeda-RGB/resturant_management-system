@@ -1,0 +1,64 @@
+.how-it-works {
+  background: linear-gradient(135deg, #ffaf68, #FFC491); /* gradient bg */
+  padding: 60px 20px;
+  color: #333;
+}
+
+.section-title {
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.work-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 40px 20px 30px;
+  position: relative;
+  text-align: center;
+  transition: transform 0.3s ease;
+  min-height: 231px;
+}
+
+.work-card:hover {
+  transform: translateY(-8px);
+}
+
+.icon-box {
+  background: #f47e1e;
+  width: 70px;
+  height: 70px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -55px auto 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.icon-box img {
+  width: 40px;
+  height: auto;
+  object-fit: contain;
+}
+
+.work-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f47e1e;
+  margin-bottom: 12px;
+}
+
+.work-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.arrow {
+  
+  font-size: 24px;
+  color: #f47e1e;
+  font-weight: bold;
+}
+
