@@ -8,7 +8,7 @@ import "@fontsource/poppins/700.css"; // Bold weight
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import './App.css'
-import Hero_section from './components/hero_section'
+import HeroSection from './components/hero_section';
 import Footer from './components/Footer';
 import WhoWeAre from './components/WhoWeAre';
 import Offers from './components/Offers';
@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className='Main_App'>
-     <Hero_section/>
+     <HeroSection/>
  
     
      <BurgerSlider/>
