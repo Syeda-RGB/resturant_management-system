@@ -62,7 +62,7 @@ function HeroSection() {
     
     {/* stickers */}
     <div className="col-6 position-relative Hero_res">
-      <img className="Hero_img1" src="/assets/75_OFF.png" alt="" />
+      <img className="Hero_img1" src="public/assets/75_OFF.png" alt="" />
       <img className="Hero_img2" src="src/assets/Star_1.png" alt="" />
        <img className="vector-plate" src="src/assets/Vector_2.png" alt="" />
 
