@@ -8,7 +8,7 @@ import "@fontsource/poppins/700.css"; // Bold weight
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import './App.css'
-import HeroSection from './components/hero_section';
+import HeroSection from './components/nav_section';
 import Footer from './components/Footer';
 import WhoWeAre from './components/WhoWeAre';
 import Offers from './components/Offers';
