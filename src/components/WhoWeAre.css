@@ -1,97 +1,6 @@
-/* .who-we-are {
-  background: #fcb97d;
-  padding: 60px 20px;
-  color: white;
-font-family: 'Poppins';
-}
-
-.content-container {
-  margin-top: -80px !important;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1200px;
-
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.text-section {
-    padding-left: 100px;
-    font-size: 14px;
-  width: 40%;
-  color: #fff;
-}
-
-.text-section h4 {
-  text-align: center;
-  margin-bottom: 30px;
-  font-weight: 600;
-}
-
-.text-section p {
-  margin-bottom: 20px;
-  line-height: 1.6;
-}
-
-.text-section hr {
-  border: 1px solid #fff;
-  width: 50px;
-  margin: 20px 0;
-}
-
-.Share{
-    gap: 10px;
-}
-.send_img{
-    width: 10%;
-    height: 10%;
-}
-
-.share-btn {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  background: transparent;
-  border: 1px solid #fff;
-  padding: 8px 16px;
-  color: #fff;
-  cursor: pointer;
-  font-weight: 500;
-  border-radius: 6px;
-  transition: all 0.3s ease;
-}
-
-.share-btn:hover {
-  background: #fff;
-  color: #fcb97d;
-}
-
-.image-section {
-  width: 58%;
-  
-}
-
-.burger-img {
-  margin-left: -100px;
-  max-width: 100%;
-  border-radius: 20px;
-  margin-top: -250px;
-}
- */
-
-
-/* Responsive */
-/* @media (max-width: 768px) {
-  .content-container {
-    flex-direction: column;
-  }
-  .image-section {
-    margin-top: 30px;
-  }
-} */
 
 .who-we-are {
-  background: #fcb97d;
+  background: linear-gradient(300deg, #ffaf68, #FFC491);
   padding: 60px 20px;
   color: white;
   font-family: 'Poppins';
@@ -234,6 +143,10 @@ font-family: 'Poppins';
   max-width: 100%;
   border-radius: 20px;
    margin-left: -15px;
+}
+.send_img {
+    width: 19%;
+    height: 10%;
 }
 
 }

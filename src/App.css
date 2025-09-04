@@ -190,4 +190,43 @@ padding:20px ;
     text-align:center;
     justify-content: center;
   }
+  .navbar-collapse {
+    margin-left: 28px !important;
+  }
+}
+@media (max-width: 479px) {
+  .title {
+    font-size: 36px;}
+    .eyebrow {
+    font-size: 14px;}
+.btn-explore {
+   font-size: 14px;
+    padding: 10px 15px;}
+.btn-play {
+    width: 42px;
+    height: 40px;}
+    .hero-wrap{
+      margin-top: -49px !important;
+    }
+
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 36px;
+  }
+  .eyebrow {
+    font-size: 14px;
+  }
+  .btn-explore {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  .btn-play {
+    width: 42px;
+    height: 40px;
+  }
+  .hero-wrap {
+    margin-top: -49px !important;
+  }
 }
