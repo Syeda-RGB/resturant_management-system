@@ -108,7 +108,7 @@ padding:20px ;
 
   .hero-section {
       position: relative;
-      background-image: url('src/assets/Rectangle2.png');
+      background-image: url('/assets/Rectangle2.png');
       background-repeat: no-repeat; 
       background-position: center;  
       background-position: top right !important;

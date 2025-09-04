@@ -21,15 +21,12 @@ function Offers() {
             <div className="Images_content">
               <div className="artboard">
                 {/* main plate/burgers image */}
-                <img className="burger-plate" src="src/assets/Burger.png" alt="Burgers" />
+                <img className="burger-plate" src="/assets/Burger.png" alt="Burgers" />
 
-                {/* optional extra assets (add only if you have them) */}
-                {/* <img className="fries" src="src/assets/Fries.png" alt="Fries" /> */}
-                {/* <img className="drink" src="src/assets/Drink.png" alt="Drink" /> */}
 
                 {/* doodles */}
-                <img className="doodle-arrow" src="src/assets/Vector_3.png" alt="" />
-                {/* <img className="doodle-squiggle" src="src/assets/Vector_4.png" alt="" /> */}
+                <img className="doodle-arrow" src="/assets/Vector_3.png" alt="" />
+               
               </div>
             </div>
           </div>

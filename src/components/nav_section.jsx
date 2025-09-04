@@ -1,25 +1,3 @@
-// import React from 'react';
-// import CustomNavbar from './CustomNavbar';
-
-
-// function HeroSection() {
-//   return (
-//     <div className="hero-section">
-        
-//       <CustomNavbar />
-//       <div className='Hero_img_div'>
-//         <img className='Hero_img1' src="src/assets/75_OFF.png" alt="" />
-//         <img className='Hero_img2'src="src/assets/Star_1.png" alt="" />
-//         <img className='Hero_img' src="src/assets/Hero_img.png" alt="" />
-//       </div>
-//        <img src="src/assets/Vector_2.png" alt="" />
-     
-//     </div>
-//   );
-// }
-
-
-// export default HeroSection;
 
 
 import React from 'react';
@@ -62,16 +40,15 @@ function HeroSection() {
     
     {/* stickers */}
     <div className="col-6 position-relative Hero_res">
-      <img className="Hero_img1" src="public/assets/75_OFF.png" alt="this is testing " />
-      <img className="Hero_img2" src="src/assets/Star_1.png" alt="" />
-       <img className="vector-plate" src="src/assets/Vector_2.png" alt="" />
+      <img className="Hero_img1" src="/assets/75_OFF.png" alt="this is testing " />
+      <img className="Hero_img2" src="/assets/Star_1.png" alt="" />
+       <img className="vector-plate" src="/assets/Vector_2.png" alt="" />
 
     </div>
     {/* burger */}
     <div className=" Hero_burger">
-      <img className="Hero_img" src="src/assets/Hero_img.png" alt="Burger" />
+      <img className="Hero_img" src="/assets/Hero_img.png" alt="Burger" />
     </div>
-    
   </div>
 </div>
 

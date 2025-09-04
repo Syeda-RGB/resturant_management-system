@@ -6,7 +6,7 @@ export default function CustomNavbar() {
     <nav className="navbar navbar-expand-lg  px-3">
 
         <div  className="Logo_Par d-flex" >
-       <img className="Logo"  src="src/assets/burger1.png" alt=" ger Logo"     />
+       <img className="Logo"  src="/assets/burger1.png" alt=" ger Logo"     />
         <span className="ms-2 text-white">Burger</span>
         
         </div>

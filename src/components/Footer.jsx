@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="col-md-4 footer-about">
            <div className="d-flex ">
   <div className="burger-logo ">
-    <img className="Logo" src="src/assets/burger1.png" alt="Burger Logo" />
+    <img className="Logo" src="/assets/burger1.png" alt="Burger Logo" />
   </div>
   <h5 className="footer-title mb-0">BURGER</h5>
 </div>

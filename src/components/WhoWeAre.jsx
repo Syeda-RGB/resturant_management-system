@@ -27,7 +27,7 @@ const WhoWeAre = () => {
             Wide Range Of Veggie Burger Options Including Classic, Gourmet, And Customizable Choices.
           </p>
           <div className='d-flex Share'>
-            <img className='send_img' src="src/assets/send_1.png" alt="" />
+            <img className='send_img' src="/assets/send_1.png" alt="" />
               <button className="share-btn">
             
             Share
@@ -37,7 +37,7 @@ const WhoWeAre = () => {
         </div>
 
         <div className="image-section">
-          <img src="src/assets/Group_24.png" alt="Burger Character" className="burger-img" />
+          <img src="/assets/Group_24.png" alt="Burger Character" className="burger-img" />
         </div>
       </div>
     </section>

@@ -12,7 +12,7 @@ function HowItWorks() {
           <div className="col-lg-4 col-md-6 col-12 mb-4">
             <div className="work-card">
               <div className="icon-box">
-                <img src="src/assets/breakfast.png" alt="Choose Meals" />
+                <img src="/assets/breakfast.png" alt="Choose Meals" />
               </div>
               <h3>Choose Your Meals</h3>
               <p>
@@ -27,7 +27,7 @@ function HowItWorks() {
           <div className="col-lg-4 col-md-6 col-12 mb-4">
             <div className="work-card">
               <div className="icon-box">
-                <img src="src/assets/breakfast(1) 1 (1).png" alt="Track Order" />
+                <img src="/assets/breakfast(1) 1 (1).png" alt="Track Order" />
               </div>
               <h3>Track Order</h3>
               <p>
@@ -42,7 +42,7 @@ function HowItWorks() {
           <div className="col-lg-4 col-md-6 col-12 mb-4">
             <div className="work-card">
               <div className="icon-box">
-                <img src="src/assets/breakfast.png" alt="Collect Order" />
+                <img src="/assets/breakfast.png" alt="Collect Order" />
               </div>
               <h3>Collect Order</h3>
               <p>

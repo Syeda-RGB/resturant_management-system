@@ -6,14 +6,14 @@ import "./BurgerSlider.css";
 import Cart from "./Cart";
 
 const products = [
-  { name: "Veg Burger", price: 250, img: "src/assets/Hero_img.png" },
-  { name: "Paneer Wrap", price: 200, img: "src/assets/Hero_img.png" },
-  { name: "Cheese Pizza", price: 400, img: "src/assets/Hero_img.png" },
-  { name: "Sandwich", price: 150, img: "src/assets/Hero_img.png" },
-  { name: "Chilly Pasta", price: 300, img: "src/assets/Hero_img.png" },
-  { name: "French Fries", price: 120, img: "src/assets/Hero_img.png" },
-  { name: "Spring Rolls", price: 180, img: "src/assets/Hero_img.png" },
-  { name: "Momos", price: 100, img: "src/assets/Hero_img.png" },
+  { name: "Veg Burger", price: 250, img: "/assets/Hero_img.png" },
+  { name: "Paneer Wrap", price: 200, img: "/assets/Hero_img.png" },
+  { name: "Cheese Pizza", price: 400, img: "/assets/Hero_img.png" },
+  { name: "Sandwich", price: 150, img: "/assets/Hero_img.png" },
+  { name: "Chilly Pasta", price: 300, img: "/assets/Hero_img.png" },
+  { name: "French Fries", price: 120, img: "/assets/Hero_img.png" },
+  { name: "Spring Rolls", price: 180, img: "/assets/Hero_img.png" },
+  { name: "Momos", price: 100, img: "/assets/Hero_img.png" },
 ];
 
 const CardSlider = () => {
